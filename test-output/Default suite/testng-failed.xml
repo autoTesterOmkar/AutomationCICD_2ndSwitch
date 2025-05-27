@@ -7,7 +7,7 @@
         <methods>
           <include name="launchapplication"/>
           <include name="CloseTest"/>
-          <include name="SubmitOrder" invocation-numbers="1"/>
+          <include name="SubmitOrder"/>
         </methods>
       </class> <!-- RSA2_Framework.SubmitOrderTest -->
     </classes>
