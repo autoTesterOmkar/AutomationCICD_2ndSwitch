@@ -5,9 +5,9 @@
 		<listener class-name="RSA2_Framework.TestCompoenent.Listeners"/>
 	</listeners>
 	
-  <test thread-count="5" name="Error Validation Test">
+  <test thread-count="5" name="Submit Order Test">
     <classes>
-      <class name="RSA2_Framework.ErrorValidationTest"/>
+      <class name="RSA2_Framework.SubmitOrderTest"/>
     </classes>
   </test> <!-- Test -->
   
