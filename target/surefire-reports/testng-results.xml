@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-15T21:18:17 IST" name="Suite" finished-at="2025-05-15T21:18:35 IST" duration-ms="17680">
+    <groups>
+      <group name="ErrorFirst">
+        <method signature="ErrorValidationTest.ErrorValidation()[pri:0, instance:RSA2_Framework.ErrorValidationTest@3e08ff24]" name="ErrorValidation" class="RSA2_Framework.ErrorValidationTest"/>
+      </group> <!-- ErrorFirst -->
+    </groups>
+    <test started-at="2025-05-15T21:18:17 IST" name="Error Validation Test" finished-at="2025-05-15T21:18:35 IST" duration-ms="17680">
+      <class name="RSA2_Framework.ErrorValidationTest">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:RSA2_Framework.ErrorValidationTest@3e08ff24]" started-at="2025-05-15T21:18:17 IST" name="launchapplication" finished-at="2025-05-15T21:18:28 IST" duration-ms="10338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="ErrorValidation()[pri:0, instance:RSA2_Framework.ErrorValidationTest@3e08ff24]" started-at="2025-05-15T21:18:28 IST" name="ErrorValidation" finished-at="2025-05-15T21:18:31 IST" duration-ms="3397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorValidation -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:RSA2_Framework.ErrorValidationTest@3e08ff24]" started-at="2025-05-15T21:18:31 IST" name="launchapplication" finished-at="2025-05-15T21:18:32 IST" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="ErrorVerify()[pri:0, instance:RSA2_Framework.ErrorValidationTest@3e08ff24]" started-at="2025-05-15T21:18:32 IST" name="ErrorVerify" finished-at="2025-05-15T21:18:34 IST" duration-ms="2198" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email or password.] but found [Incorrect emai or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect emai or password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at RSA2_Framework.ErrorValidationTest.ErrorVerify(ErrorValidationTest.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorVerify -->
+      </class> <!-- RSA2_Framework.ErrorValidationTest -->
+    </test> <!-- Error Validation Test -->
+  </suite> <!-- Suite -->
+</testng-results>
